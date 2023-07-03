@@ -7,7 +7,7 @@
 #title {
     color: brown;
     text-align: center;
-    font-size: 4em;
+    font-size: 10em;
     margin: 0px;
     padding: 50px 0px 0px 0px;
 }
@@ -46,7 +46,7 @@ ul {
 
 .stoixonOne{
     font-family: 'copticregular', Times, serif;
-    font-size: 10em;
+    font-size: 8em;
     font-weight: bold;
     color: #f3cd85;
 }
@@ -54,7 +54,7 @@ ul {
 .stoixonTwo{
     font-family: Times, serif;
     color: #e3dac9;;
-    font-size: 2em;
+    font-size: 3em;
     font-weight: 200;
     margin: 1%;
     font-style: italic;
