@@ -13,8 +13,7 @@
       xmlhttp.open("GET", filePath, false);
       xmlhttp.send();
       if (xmlhttp.status==200) {
-        result = xmlhttp.responseText;
-        xmlhttp.responseType = "arraybuffer"        
+        result = xmlhttp.responseText;     
       }
       return result;
     }
@@ -34,10 +33,10 @@
         src.start();
     }    
     
-    var myAudioArray = loadFile("greg.mp3");
+    var myAudioFile = loadFile("greg.mp3");
 
-    playSound(myAudioArray);
 
-    window.alert();
+
+    window.alert(myAudioFile.toString());
 
 </script>
