@@ -5,6 +5,7 @@
 
 
 
+
 <script>
     function loadFile(filePath) {
       var result = null;
@@ -13,12 +14,30 @@
       xmlhttp.send();
       if (xmlhttp.status==200) {
         result = xmlhttp.responseText;
+        xmlhttp.responseType = "arraybuffer"        
       }
       return result;
     }
 
-    var myStuff = loadFile("greg.mp3");
+    var ctx = new AudioContext();
     
-    window.alert(myStuff.filePath);
+    function playSound(arrBuff) {
+        var myAudioBuffer;
+        
+        var src = ctx.createBufferSource();
+        ctx.decodeAudioData(arrBuff, function (buffer) {
+            myAudioBuffer = buffer;
+        });
+        
+        src.buffer = myAudioBuffer;
+        src.connect(ctx.destination);
+        src.start();
+    }    
+    
+    var myAudioArray = loadFile("greg.mp3");
+
+    playSound(myAudioArray);
+
+    window.alert();
 
 </script>
