@@ -47,15 +47,24 @@
 
                 var li_one = document.createElement('li');
                 var li_two = document.createElement('li');
+                var li_three = document.CreateElement('li');
+
+                var audio_widget = document.createElement('audio');
+                var audio_source = document.createElement('source');
 
                 li_one.classList.add("stoixonOne");
                 li_two.classList.add("stoixonTwo");
+                li.three.classList.add("audioContainer");
 
                 li_one.innerHTML = Poetry_Item[0];
                 li_two.innerHTML = Poetry_Item[1];
                 
                 ul.appendChild(li_one);
-                ul.appendChild(li_two)
+                ul.appendChild(li_two);
+                ul.appendChild(li_three);
+                li_three.appendChild(audio_widget).appendChild(audio_source);
+
+                audio_source.setAttribute("src", Poetry_Item[0] + "mp3")
             }
         </script>
     </body>
