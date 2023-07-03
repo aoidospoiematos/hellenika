@@ -15,12 +15,17 @@
     font-style: italic;
 }
 
+body {
+    background-color:#e3dac9;
+}
+
 #navigationn {
     font-size: 2em;
 }
 
 #sayings_container {
     margin: 1em 4em;
+    background-color: #51484f;
 }
 
 ul {
