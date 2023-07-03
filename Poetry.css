@@ -9,20 +9,25 @@
     text-align: center;
     font-size: 4em;
 }
+#english_title {
+    text-align: center;
+    font-size: 3em;
+    font-style: italic;
+}
 
 #navigationn {
     font-size: 2em;
 }
 
 #sayings_container {
-    margin: 1em 3em;
+    margin: 1em 4em;
 }
 
 ul {
     list-style-type: none;
 }
 
-#jesus {
+#Muse {
     width: 20em;
     display: block;
     margin-left: auto;
