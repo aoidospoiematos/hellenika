@@ -1,44 +1,79 @@
-<div>This is index page and it has a div</div>
-
-<audio controls autoplay>
-    <source src="greg.mp3" type="audio/mpeg">  
-</audio>
 
 
 
 
-
-<script>
-    function loadFile(filePath) {
-      var result = null;
-      var xmlhttp = new XMLHttpRequest();
-      xmlhttp.open("GET", filePath, false);
-      xmlhttp.send();
-      if (xmlhttp.status==200) {
-        result = xmlhttp.responseText;     
-      }
-      return result;
-    }
-
-    var ctx = new AudioContext();
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Cache-control" content="NO-CACHE">
+    <link rel="stylesheet" href="ferengi_styles.css">
+    </head>
+    <body>
+        <a id="navigation" href="../index.html">Main Menu</a>
+        <div id="quark_container">
+            <div id="quark_outline">
+                <img id="quark" src="quark.png" alt="quark">
+            </div>
+        </div>
+        <H1 id="english_title">The Poems' Bard</H1>	
+        <H1 id="title">"Αοίδος τῶν ποιημάτων</H1>
+        <div id="sayings_container">	
+            <ul id="sayings"></ul>
+        </div>
     
-    function playSound(arrBuff) {
-        var myAudioBuffer;
-        
-        var src = ctx.createBufferSource();
-        ctx.decodeAudioData(arrBuff, function (buffer) {
-            myAudioBuffer = buffer;
-        });
-        
-        src.buffer = myAudioBuffer;
-        src.connect(ctx.destination);
-        src.start();
-    }    
+        <div>This is index page and it has a div</div>
     
-    var myAudioFile = loadFile("greg.mp3");
+            <audio controls autoplay>
+            <source src="greg.mp3" type="audio/mpeg">  
+        </audio>     
+    
 
 
 
-    window.alert(myAudioFile.toString());
 
-</script>
+        <script>
+            function loadFile(filePath) {
+            var result = null;
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.open("GET", filePath, false);
+            xmlhttp.send();
+            if (xmlhttp.status==200) {
+                result = xmlhttp.responseText;     
+            }
+            return result;
+            } 
+            
+            var myStuff = loadFile("poetry_injection.txt");
+            
+            window.alert(myAudioFile.toString());
+            
+            var myArray = myStuff.split("TITLE:")
+            var myCleanedArray = [];
+
+            myArray.forEach(element => {
+                if (element !== "") {
+                    myCleanedArray.push(element);
+                }
+            });
+
+            myCleanedArray.forEach(listIt);
+
+            function listIt(item){
+                var Poetry_Item = item.split("POEM:");         
+                var ul = document.getElementById("sayings");
+
+                var li_one = document.createElement('li');
+                var li_two = document.createElement('li');
+
+                li_one.classList.add("stoixonOne");
+                li_two.classList.add("stoixonTwo");
+
+                li_one.innerHTML = Poetry_Item[0];
+                li_two.innerHTML = Poetry_Item[1];
+                
+                ul.appendChild(li_one);
+                ul.appendChild(li_two)
+            }
+        </script>
+    </body>
+</html>    
