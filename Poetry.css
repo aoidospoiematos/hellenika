@@ -28,9 +28,9 @@ body {
 }
 
 #sayings_container {
-    margin: 1em 8em;
+    margin: 30px 50px;
     background-color: #696865;
-    height: 100vh;
+    height: 50vh;
 }
 
 ul {
