@@ -11,15 +11,16 @@
 }
 
 #pic_of_muse {
-    width: 10%;
+    width: 20%;
     border-radius: 50%;
-    margin: 20px;
+    margin-bottom: 2em;
 }
 
 #circle_holder {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
 }
 
 #lCircles{
@@ -52,7 +53,7 @@ body {
 }
 
 #sayings_container {
-    margin: 30px 50px;
+    margin: 1% 15%;
     /* background-color: pink;
     height: 65vh;
     border-radius: 25px; */
