@@ -55,6 +55,7 @@ body {
 #sayings_container {
     margin: 1% 25%;
     background-color: #8e8467;
+    border-radius: 25px;
     padding: 10px;
 }
 
@@ -99,7 +100,7 @@ a {
     color: brown;
 }
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1300px) {
     #sayings_container {
         margin: 5px 15px;
         /* background-color: pink;
