@@ -97,3 +97,12 @@ a {
     cursor: pointer;
     color: brown;
 }
+
+@media only screen and (max-width: 900px) {
+    #sayings_container {
+        margin: 5px 15px;
+        /* background-color: pink;
+        height: 65vh;
+        border-radius: 25px; */
+    }    
+  }
