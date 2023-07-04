@@ -34,14 +34,14 @@
 
         <script>
             function loadFile(filePath) {
-            var result = null;
-            var xmlhttp = new XMLHttpRequest();
-            xmlhttp.open("GET", filePath, false);
-            xmlhttp.send();
-            if (xmlhttp.status==200) {
-                result = xmlhttp.responseText;     
-            }
-            return result;
+                var result = null;
+                var xmlhttp = new XMLHttpRequest();
+                xmlhttp.open("GET", filePath, false);
+                xmlhttp.send();
+                if (xmlhttp.status==200) {
+                    result = xmlhttp.responseText;     
+                }
+                return result;
             } 
             
             var myStuff = loadFile("poetry_injection.txt");           
@@ -54,6 +54,11 @@
                     myCleanedArray.push(element);
                 }
             });
+
+            function chop_into_lines(poemText){
+                poemText = poemText.replace(/(?:\r\n|\r|\n)/g, '<br>');
+                return poemText;
+            }
 
             myCleanedArray.forEach(listIt);
 
@@ -83,8 +88,9 @@
                 li_two.classList.add("stoixonTwo");
                 li_three.classList.add("audioContainer");
 
-                li_one.innerHTML = Poetry_Item[0];
-                li_two.innerHTML = Poetry_Item[1];
+                
+                li_one.innerHTML = chop_into_lines(Poetry_Item[0]);
+                li_two.innerHTML = chop_into_lines(Poetry_Item[1]);
                 
                 ul.appendChild(li_one);
                 ul.appendChild(li_two);
