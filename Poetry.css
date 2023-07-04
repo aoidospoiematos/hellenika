@@ -58,7 +58,7 @@ body {
 }
 
 .sayingsCard {
-    background-color: #8e8467;
+    background-color: #bbb297;
     border-radius: 25px;
     margin: 10px 0px;
 }
@@ -78,9 +78,9 @@ ul {
 
 .stoixonTwo{
     font-family: Times, serif;
-    color: #e3dac9;;
+    color: #726a51;;
     font-size: 2em;
-    font-weight: 200;
+    font-weight: 600;
     margin: 1%;
     font-style: italic;
     padding: 0px 40px;
