@@ -53,10 +53,15 @@ body {
 }
 
 #sayings_container {
-    margin: 1% 15%;
-    /* background-color: pink;
-    height: 65vh;
-    border-radius: 25px; */
+    margin: 1% 25%;
+    background-color: #8e8467;
+    padding: 10px;
+}
+
+.sayingsCard {
+    background-color: #8e8467;
+    border-radius: 25px;
+    border: solid #e3dac9 ;
 }
 
 ul {
@@ -82,10 +87,6 @@ ul {
     padding: 0px 40px;
 }
 
-.sayingsCard {
-    background-color: #8e8467;
-    border-radius: 25px;
-}
 
 .audioContainer{
     margin: 1%;
@@ -98,7 +99,7 @@ a {
     color: brown;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1600px) {
     #sayings_container {
         margin: 5px 15px;
         /* background-color: pink;
