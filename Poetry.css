@@ -4,12 +4,19 @@
     src: url('Coptic-Regular.ttf') format('truetype')       
   }
 
+#lCircles{
+    background-color:#8e8467; 
+    display: inline-block; 
+    border-radius: 50%; 
+
+}
+
 #title {
     color: #726a51;
     text-align: center;
     font-size: 5em;
     margin: 0px;
-    padding: 50px 0px 0px 0px;
+    padding: 0px;
 }
 #english_title {
     text-align: center;
