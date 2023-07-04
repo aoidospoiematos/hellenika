@@ -54,9 +54,7 @@ body {
 
 #sayings_container {
     margin: 1% 25%;
-    /* background-color: #8e8467;
-    border-radius: 25px;
-    padding: 10px; */
+
 }
 
 .sayingsCard {
@@ -106,5 +104,10 @@ a {
         /* background-color: pink;
         height: 65vh;
         border-radius: 25px; */
-    }    
+    }  
+    #pic_of_muse {
+        width: 30%;
+        border-radius: 50%;
+        margin-bottom: 2em;
+    }  
   }
