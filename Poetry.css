@@ -2,13 +2,30 @@
     font-family: "copticregular";
     /* src: url('Coptic-Regular.ttf'); */
     src: url('Coptic-Regular.ttf') format('truetype')       
-  }
+}
+
+#Muse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pic_of_muse {
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#circle_holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 #lCircles{
     background-color:#8e8467; 
     display: inline-block; 
     border-radius: 50%; 
-
 }
 
 #title {
@@ -45,18 +62,13 @@ ul {
     list-style-type: none;
 }
 
-#Muse {
-    width: 20em;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .stoixonOne{
     font-family: 'copticregular', Times, serif;
     font-size: 5em;
     font-weight: bold;
     color: #e3dac9;
+    padding: 10px 30px;
 }
 
 .stoixonTwo{
@@ -66,11 +78,11 @@ ul {
     font-weight: 200;
     margin: 1%;
     font-style: italic;
+    padding: 0px 40px;
 }
 
 .sayingsCard {
     background-color: #8e8467;
-    height: 65vh;
     border-radius: 25px;
 }
 
