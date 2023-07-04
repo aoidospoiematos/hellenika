@@ -62,8 +62,15 @@
             myCleanedArray.forEach(listIt);
 
             function listIt(item){
-                var Poetry_Item = item.split("POEM:");         
-                var ul = document.getElementById("sayings");
+                var Poetry_Item = item.split("POEM:");
+
+                var sayingsContainer = document.getElementById("sayings_container");
+
+                var sayingsCard = document.createElement("div");         
+                var ul = document.createElement("ul");
+                sayingsContainer.appendChild(sayingsCard);
+                sayingsCard.appendChild(ul);
+
 
                 var li_one = document.createElement('li');
                 var li_two = document.createElement('li');
@@ -75,7 +82,7 @@
                 li_three.appendChild(audio_widget);
                 audio_widget.appendChild(audio_source);
 
-
+                sayingsCard.classList.add("sayingsCard");
                 li_one.classList.add("stoixonOne");
                 li_two.classList.add("stoixonTwo");
                 li_three.classList.add("audioContainer");

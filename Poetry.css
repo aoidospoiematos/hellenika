@@ -36,7 +36,7 @@ body {
 
 #sayings_container {
     margin: 30px 50px;
-    background-color: #8e8467;
+    background-color: pink;
     height: 65vh;
     border-radius: 25px;
 }
@@ -66,6 +66,12 @@ ul {
     font-weight: 200;
     margin: 1%;
     font-style: italic;
+}
+
+.sayingsCard {
+    background-color: #8e8467;
+    height: 65vh;
+    border-radius: 25px;
 }
 
 .audioContainer{
