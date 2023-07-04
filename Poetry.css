@@ -5,7 +5,7 @@
   }
 
 #title {
-    color: brown;
+    color: #726a51;
     text-align: center;
     font-size: 5em;
     margin: 0px;
@@ -15,8 +15,9 @@
     text-align: center;
     font-size: 3em;
     font-style: italic;
+    color: #bbb297;
     margin: 0px;
-    padding: 0px 0px 100px 0px;
+    padding: 0px 0px 40px 0px;
 }
 
 body {
@@ -29,8 +30,9 @@ body {
 
 #sayings_container {
     margin: 30px 50px;
-    background-color: #d2cbb8;
-    height: 60vh;
+    background-color: #8e8467;
+    height: 65vh;
+    border-radius: 25px;
 }
 
 ul {
@@ -48,7 +50,7 @@ ul {
     font-family: 'copticregular', Times, serif;
     font-size: 5em;
     font-weight: bold;
-    color: #f3cd85;
+    color: #e3dac9;
 }
 
 .stoixonTwo{
