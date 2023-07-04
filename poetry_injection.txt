@@ -19,4 +19,14 @@ POEM:Μακαρίζομέν σε, τέττιξ,
 τὸ δὲ γῆρας οὔ σε τείρει.
 σοφέ, γηγενής, φίλυμνε,
 ἀπαθής, ἀναιμόσαρκε·
-σχεδὸν εἶ θεοῖς ὅμοιος..
+σχεδὸν εἶ θεοῖς ὅμοιος.
+TITLE:Horatii Carmen 1.11
+POEM:Tū nē quaesieris (scīre nefās) quem mihi, quem tibi
+fīnem dī dederint, Leuconoē, nec Babylōniōs
+temptārīs numerōs. Ut melius quicquid erit patī!
+Seu plūrīs hiemēs seu tribuit Iuppiter ultimam,
+quae nunc oppositīs dēbilitat pūmicibus mare
+5
+Tyrrhēnum, sapiās, vīna liquēs et spatiō brevī
+spem longam resecēs. Dum loquimur, fūgerit invida
+aetās: carpe diem, quam minimum crēdula posterō.
