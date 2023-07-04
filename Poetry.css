@@ -36,9 +36,9 @@ body {
 
 #sayings_container {
     margin: 30px 50px;
-    background-color: pink;
+    /* background-color: pink;
     height: 65vh;
-    border-radius: 25px;
+    border-radius: 25px; */
 }
 
 ul {
