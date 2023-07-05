@@ -101,9 +101,6 @@ a {
 @media only screen and (max-width: 1400px) {
     #sayings_container {
         margin: 5px 15px;
-        /* background-color: pink;
-        height: 65vh;
-        border-radius: 25px; */
     }  
     #pic_of_muse {
         width: 30%;
