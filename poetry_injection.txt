@@ -20,6 +20,7 @@ POEM:Μακαρίζομέν σε, τέττιξ,
 σοφέ, γηγενής, φίλυμνε,
 ἀπαθής, ἀναιμόσαρκε·
 σχεδὸν εἶ θεοῖς ὅμοιος.
+
 TITLE:Horatii Carmen 1.11
 POEM:Tū nē quaesieris (scīre nefās) quem mihi, quem tibi
 fīnem dī dederint, Leuconoē, nec Babylōniōs
@@ -30,3 +31,22 @@ quae nunc oppositīs dēbilitat pūmicibus mare
 Tyrrhēnum, sapiās, vīna liquēs et spatiō brevī
 spem longam resecēs. Dum loquimur, fūgerit invida
 aetās: carpe diem, quam minimum crēdula posterō.
+
+TITLE:Agamemnon 763-781
+POEM:φιλεῖ δὲ τίκτειν Ὕβρις                                                               [στρ. δ. 
+μὲν παλαιὰ νεά-
+ζουσαν ἐν κακοῖς βροτῶν 
+ὕβριν τότ' ἢ τόθ', ὅτε τὸ κύριον μόλῃ 
+φάος τόκου, δαίμονά τ' ἔταν, 
+ἄμαχον ἀπόλεμον ἀνίερον, 
+Θράσος, μελαίνα μελάθροισιν Ἄτα, 
+εἰδομένα τοκεῦσιν. 
+
+Δίκα δὲ λάμπει μὲν ἐν                                                               [ἀντ. δ. 
+δυσκάπνοις δώμασιν, 
+τόν τ' ἐναίσιμον τίει [βίον].  
+τὰ χρυσόπαστα δ' ἔδεθλα σὺν πίνῳ χερῶν 
+παλιντρόποις ὄμμασι λιποῦσ', 
+ὅσια προσέβατο δύναμιν οὐ 
+σέβουσα πλούτου παράσημον αἴνῳ· 
+πᾶν δ' ἐπὶ τέρμα νωμᾷ.
